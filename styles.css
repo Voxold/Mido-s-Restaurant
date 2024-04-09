@@ -1,0 +1,130 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* ------------------------------- HEADER ------------------------------- */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid orangered;
+    width: 100%;
+    height: 10rem;
+}
+
+/* top-header */
+.header .top-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    background-color: #181818;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.header .top-header i {
+    font-size: 20px;
+}
+
+.header .top-header .p1 {
+    position: relative;
+    right:  11.5rem;
+}
+
+.header .top-header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition: .2s;
+}
+
+.header .top-header a:hover {
+    color: #ED4E53;
+}
+
+.header .top-header button {
+    height: 100%;
+    width: 5rem;
+    outline: none;
+    border: none;
+    color: white;
+    background: #ED4E53;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+/* bottom-header */
+.header .bottom-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
+
+.header .bottom-header .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border: 2px solid #181818;
+    border-radius: 50%;
+}
+
+.header .bottom-header  img{
+    width: 70px;
+
+}
+
+.header .bottom-header .header-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+.header .bottom-header .header-content a {
+    color: #181818;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    transition: .2s;
+}
+
+.header .bottom-header .header-content a:hover {
+    color: #ED4E53;
+}
+
+
+/* ------------------------------- container1 ------------------------------- */
+
+.container1 {
+    width: 100%;
+    height: 30rem;
+    border: orangered 2px solid;
+}
+
+/* ------------------------------- HEADER ------------------------------- */
+/* ------------------------------- HEADER ------------------------------- */
+/* ------------------------------- HEADER ------------------------------- */
+/* ------------------------------- HEADER ------------------------------- */
+/* ------------------------------- HEADER ------------------------------- */
+/* ------------------------------- HEADER ------------------------------- */
+/* ------------------------------- HEADER ------------------------------- */
+
+
+
+
+
+
+
